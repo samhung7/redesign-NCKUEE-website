@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* line 1, ../sass/index.scss */
+body {
+  background: #fff;
+  margin: 0;
+  font-family: Helvetica, 微軟正黑體;
+}
+
+/* line 8, ../sass/index.scss */
+.title {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+}
+/* line 14, ../sass/index.scss */
+.title .abc {
+  color: #fff;
+  background: rgba(255, 83, 79, 0.9);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+/* line 23, ../sass/index.scss */
+.title .sub {
+  color: #fff;
+  background: rgba(255, 0, 0, 0.4);
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+/* line 29, ../sass/index.scss */
+.title .sub ul {
+  margin: 0 auto;
+}
+/* line 31, ../sass/index.scss */
+.title .sub ul li {
+  display: inline;
+}
+/* line 33, ../sass/index.scss */
+.title .sub ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 43, ../sass/index.scss */
+.logo {
+  text-align: center;
+  margin-top: 80px;
+}
+/* line 49, ../sass/index.scss */
+.logo img {
+  width: 25%;
+  height: 25%;
+}
+
+/* line 55, ../sass/index.scss */
+.content {
+  margin-bottom: 80px;
+  text-align: center;
+  color: #fff;
+  overflow: auto;
+}
+/* line 60, ../sass/index.scss */
+.content div {
+  position: relative;
+  top: 0px;
+  float: left;
+  background: rgba(255, 0, 0, 0.4);
+  height: 1000px;
+}
+/* line 69, ../sass/index.scss */
+.content .blk1 {
+  width: 25%;
+}
+/* line 72, ../sass/index.scss */
+.content .blk2 {
+  width: 50%;
+}
+/* line 75, ../sass/index.scss */
+.content .blk3 {
+  width: 25%;
+}
+
+/* line 79, ../sass/index.scss */
+.bottom {
+  background: rgba(255, 83, 79, 0.9);
+  position: relative;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+/* line 86, ../sass/index.scss */
+.bottom p {
+  margin: 0 auto;
+}
